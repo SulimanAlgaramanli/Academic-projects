@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688744553 source:c:\users\sulim\onedrive\desktop\c++\virtual_memory_algorithm\main.cpp
+	<queue>
+	<iostream>
+	<queue>
+

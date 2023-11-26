@@ -1,0 +1,91 @@
+﻿<html>
+    <head>
+	<meta charset="UTF-8">
+        <title> X O Game</title>
+     <link rel="stylesheet" href="my css.css" />
+        <script src="myJsCode.js"></script>
+    </head>
+
+    <body>
+        
+
+                <audio src="clap.mp3"  id="sound"></audio>
+             
+
+            <header class="myHeader whirtOnGreen">
+                
+                <img  class="imgPosition" src="logo3.png" width="80" height="80" align="left"/>
+
+                 Tic Tac Toe Game 
+
+                <img class="imgPosition" src="logo.png" width="80" height="80" align="right" />
+
+                   
+              
+</header>
+            <section>
+                <div class="player" id="pX" style="background-color: gold;">
+                    <br />
+                    <img src="player.png" width="80%" height="300">
+                    <br />
+
+                    <div id="cup1">
+                        <br>
+                    </div>
+
+
+                    <br />
+                    Player 1
+
+
+                </div>
+
+                <div class="game" id="backGroungGame">
+                    <button onclick="view_x_o('B1')" id="B1">-</button>
+                    <button onclick="view_x_o('B2')" id="B2">-</button>
+                    <button onclick="view_x_o('B3')" id="B3">-</button>
+
+                    <br />
+
+                    <button onclick="view_x_o('B4')" id="B4">-</button>
+                    <button onclick="view_x_o('B5')" id="B5">-</button>
+                    <button onclick="view_x_o('B6')" id="B6">-</button>
+                    <br />
+                    <button onclick="view_x_o('B7')" id="B7">-</button>
+                    <button onclick="view_x_o('B8')" id="B8">-</button>
+                    <button onclick="view_x_o('B9')" id="B9">-</button>
+                    <br />
+                    <br />
+                    <br />
+                    <button id="mahfe" style="display:none;">1</button>
+                    <div class="result">
+                        <span id="p1">0</span>
+                        :
+                        <span id="p2">0</span>
+
+                    </div>
+                    <br>
+                    <button class="again" id="playAgain" onclick="whereGoing()">Play Again</button>
+                </div>
+                <div class="player" id="pO" style="background-color: white;">
+                    <br />
+                    <img src="player2.png" width="80%" height="300" />
+
+                    <br>
+
+                    <div id="cup2">
+                        <br />
+                    </div>
+                    <br />
+                    Player 2
+
+                </div>
+
+            </section>
+            <footer class="whirtOnGreen" >
+                For more games, please visit us on: www.gamesforfun.com <br />
+                Copy rights 2020
+            </footer>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiseration</title>
+    <link rel="stylesheet" href="file.css" type="text/css">
+</head>
+<body>
+    <div class="contenar" >
+        <div class="header" style ="background-color: rgb(234, 199, 0);">
+            <img     src="img/race.jpg" alt="car" id="img2" >
+        </div>
+        <div class="main2"> 
+            <table  align="center" id="t1">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th  align="center"><a href="login.html" style="color: rgb(46, 51, 34);">Login</a></th>
+                </tr>
+                <tr>
+                <th colspan="2" align="center"><h1>Regiseration</h1></th>
+                </tr>
+                <form method="post" action="register.php" onsubmit="validate_Email(this)">
+                    <tr>
+                        <td><label for="user">Username <span style="color: red;">*</span></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" maxlength="40" id="Username" name="Username" ></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="em">Email <span style="color: red;">*</span></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" maxlength="40" id="email" name="email" ></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password<span style="color: red;">*</span> </label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" maxlength="20" id="password" name="password" ></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="con_pass">Confirm Password <span style="color: red;">*</span></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" maxlength="20" id="Confirm_password" name="Confirm_password" ></td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Sign up" id="subm"
+                            style="background-color: rgb(52, 160, 66);  width: 110px;  "/> 
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </div>            
+</body>
+</html>
